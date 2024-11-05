@@ -5,4 +5,7 @@ export const productRouter = createTRPCRouter({
   getAll: publicProcedure.query(() => {
     return data;
   }),
+  getPaginated: publicProcedure.query(() => {
+    return data;
+  }),
 });
